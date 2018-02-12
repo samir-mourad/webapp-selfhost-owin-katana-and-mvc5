@@ -78,7 +78,7 @@ namespace App.Mvc
     }
 }
 ```
-Finally, you will need to change the `` HostingConfiguration.cs `` class. Change the <Startup> to your own class created on the previous step.
+Finally, you will need to change the `` HostingConfiguration.cs `` class. Change the ``<Startup>`` to your own class created on the previous step.
 ```sh
  public bool Start(HostControl hostControl) {
      Console.WriteLine("Starting service...");
@@ -119,7 +119,7 @@ namespace App.WebApi
 
 ```
 
-Second, you will need to change the `` HostingConfiguration.cs `` class. Change the <WebApi.Startup> to your own class created on the previous step.
+Second, you will need to change the `` HostingConfiguration.cs `` class. Change the ``<Startup>`` to your own class created on the previous step.
 ```sh
  public bool Start(HostControl hostControl) {
      Console.WriteLine("Starting service...");
