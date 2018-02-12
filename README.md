@@ -13,7 +13,7 @@ We will need to build two classes into AppStart folder in your own mvc applicati
 ``Startup.cs`` and ``Extensions.cs`` .
 
 #### Startup.cs
-```sh
+```csharp
 using Owin;
 
 namespace App.Mvc
@@ -30,7 +30,7 @@ namespace App.Mvc
 ```
 #### Extensions.cs 
 
-```sh
+```csharp
 
 using App.MiddlewareServer;
 using App.MiddlewareServer.Library;
@@ -79,7 +79,7 @@ namespace App.Mvc
 }
 ```
 Finally, you will need to change the `` HostingConfiguration.cs `` class. Change the ``<Startup>`` to your own class created on the previous step.
-```sh
+```csharp
  public bool Start(HostControl hostControl) {
      Console.WriteLine("Starting service...");
 
@@ -95,7 +95,7 @@ Finally, you will need to change the `` HostingConfiguration.cs `` class. Change
 ## Self Hosting your WebApi Application.
 
 First of all, you will need to build your Startup.cs class. 
-```sh
+```csharp
 using Owin;
 using System.Web.Http;
 
@@ -120,7 +120,7 @@ namespace App.WebApi
 ```
 
 Second, you will need to change the `` HostingConfiguration.cs `` class. Change the ``<Startup>`` to your own class created on the previous step.
-```sh
+```csharp
  public bool Start(HostControl hostControl) {
      Console.WriteLine("Starting service...");
 
