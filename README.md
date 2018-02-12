@@ -13,7 +13,7 @@ We will need to build two classes into AppStart folder in your own mvc applicati
 ``Startup.cs`` and ``Extensions.cs`` .
 
 #### Startup.cs
-```csharp
+```cs
 using Owin;
 
 namespace App.Mvc
