@@ -1,5 +1,5 @@
-## Middleware Server (Owin) to handle MVC Applications
-This is my own middleware server, responsible to handling http requests, invoking mvc controllers and render views with razor engine, Json and Static Files). It's also running by a self host with topshelf.
+## Middleware (Owin) to handle MVC Applications
+This is my own OWIN Middleware, responsible to handling http requests, invoking mvc controllers and render views with razor engine, Json and Static Files). It's also running by a self host with topshelf.
 
 It's possible too self-hosting WebApi with a little bit of code. We will see the both of examples.
 
