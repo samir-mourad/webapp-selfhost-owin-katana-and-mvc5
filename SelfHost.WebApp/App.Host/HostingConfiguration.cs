@@ -16,7 +16,7 @@ namespace App.Host
             //swap <TName> between WebApi.Startup and Mvc.Startup.
             _webApplication = WebApp.Start<Mvc.Startup>(ConfigurationManager.AppSettings["Host.Url"].ToString());
 
-            Console.WriteLine("Serviço iniciado.");
+            Console.WriteLine("Service was started.");
             return true;
         }
 
@@ -26,7 +26,7 @@ namespace App.Host
 
             _webApplication.Dispose();
 
-            Console.WriteLine("Service stopped.");
+            Console.WriteLine("Service was stopped.");
 
             return true;
         }
